@@ -1,115 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Currículum Ing. Jesús Villasmil</title>
+
+  <!-- Íconos de Google -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Estilos externos -->
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    body {
-      background-color: #f0f0f0;
-    }
-  </style>
 </head>
 
 <body>
+  <!-- Menú de navegación fijo -->
   <nav class="menu">
-  <ul>
-    <li><a href="#perfil">Perfil</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#experiencia">Experiencia</a></li>
-    <li><a href="#educacion">Educación</a></li>
-  </ul>
-</nav>
-    <div class="cv-container">
-        <header>
-            <div class="foto-perfil">
-                <img src="jesusvillasmil.jpg" alt="Foto de Jesús Villasmil" />
-            </div>
-            <h1>Ing. Jesús Villasmil</h1>
-            <h2>Ingeniero en Informática</h2>
-        </header>
+    <ul>
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#educacion">Educación</a></li>
+    </ul>
+  </nav>
 
-        <section class="perfil">
-            <h3>Perfil</h3>
-            <p>Ingeniero en Informática con experiencia en desarrollo web, soporte técnico y atención al cliente.
-                Apasionado
-                por la optimización de interfaces y la mejora continua de la experiencia de usuario. Metódico,
-                perfeccionista y
-                orientado a resultados, con habilidades sólidas en comunicación, documentación profesional y diseño
-                visual.
-                Busco oportunidades laborales que me permitan crecer en un buen
-                ambiente profesional, aportar soluciones digitales modernas y seguir desarrollando mis capacidades
-                técnicas y humanas.</p>
-            <a href="assets/pdf/cv-jesusvillasmil.pdf" download>📄 Descargar CV</a>
-        </section>
-        <section class="contacto">
-            <h3>Contacto</h3>
-            <ul>
-                <li><span class="material-icons">location_on</span> Maracaibo, Zulia, Venezuela</li>
-                <li><span class="material-icons">phone</span> +58 412-758-2530</li>
-                <li><span class="material-icons">email</span> jesusvillasmil@gmail.com</li>
-            </ul>
-        </section>
+  <!-- Botón para versión en inglés -->
+  <a href="index-en.html" class="btn-idioma">🌐 English Version</a>
 
-        <section class="habilidades">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Comunicación efectiva</li>
-                <li>Atención al cliente</li>
-                <li>Microsoft Word</li>
-                <li>Desarrollador web</li>
-            </ul>
-        </section>
+  <div class="cv-container">
+    <header>
+      <div class="foto-perfil">
+        <img src="jesusvillasmil.jpg" alt="Foto de Jesús Villasmil" />
+      </div>
+      <h1>Ing. Jesús Villasmil</h1>
+      <h2>Ingeniero en Informática</h2>
+    </header>
 
-        <section class="experiencia">
-            <h3>Experiencia Laboral</h3>
-            <div class="trabajo">
-                <h4>Soporte Técnico</h4>
-                <span>6 meses</span>
-                <p>Mantenimiento correctivo y preventivo de equipos electrónicos.</p>
-            </div>
-            <div class="trabajo">
-                <h4>Instalador y Reparador TIC</h4>
-                <span>6 meses</span>
-                <p>Instalación y reparación de tecnologías de información y comunicación.</p>
-            </div>
-            <div class="trabajo">
-                <h4>Desarrollador Web</h4>
-                <span>8 meses</span>
-                <p>Diseño y desarrollo de sitios web funcionales y responsivos.</p>
-            </div>
-            <div class="trabajo">
-                <h4>Developer</h4>
-                <span>6 meses</span>
-                <p>Desarrollo de aplicaciones y soluciones digitales.</p>
-            </div>
-            <div class="trabajo">
-                <h4>Atención al Cliente</h4>
-                <span>2 años</span>
-                <p>Gestión de consultas, soporte y resolución de problemas para usuarios.</p>
-            </div>
-        </section>
+    <section id="perfil" class="perfil">
+      <h3>Perfil</h3>
+      <p>Ingeniero en Informática con experiencia en desarrollo web, soporte técnico y atención al cliente.
+        Apasionado por la optimización de interfaces y la mejora continua de la experiencia de usuario. Metódico,
+        perfeccionista y orientado a resultados, con habilidades sólidas en comunicación, documentación profesional
+        y diseño visual. Busco oportunidades laborales que me permitan crecer en un buen ambiente profesional,
+        aportar soluciones digitales modernas y seguir desarrollando mis capacidades técnicas y humanas.</p>
 
-        <section class="educacion">
-            <h3>Educación</h3>
-            <ul>
-                <li><strong>Ingeniería en Informática</strong> — Universidad Nacional Experimental Rafael María Baralt
-                    (2020 - 2024)</li>
-            </ul>
-        </section>
-    </div>
+      <!-- Botón de descarga animado -->
+      <a href="assets/pdf/cv-jesusvillasmil.pdf" download class="btn-descargar">📄 Descargar CV</a>
+    </section>
 
-    <script src="curriculum.js"></script>
+    <section id="contacto" class="contacto">
+      <h3>Contacto</h3>
+      <ul>
+        <li><span class="material-icons">location_on</span> Maracaibo, Zulia, Venezuela</li>
+        <li><span class="material-icons">phone</span> +58 412-758-2530</li>
+        <li><span class="material-icons">email</span> jesusvillasmil@gmail.com</li>
+      </ul>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Comunicación efectiva</li>
+        <li>Atención al cliente</li>
+        <li>Microsoft Word</li>
+        <li>Desarrollador web</li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="experiencia">
+      <h3>Experiencia Laboral</h3>
+      <div class="trabajo">
+        <h4>Soporte Técnico</h4>
+        <span>6 meses</span>
+        <p>Mantenimiento correctivo y preventivo de equipos electrónicos.</p>
+      </div>
+      <div class="trabajo">
+        <h4>Instalador y Reparador TIC</h4>
+        <span>6 meses</span>
+        <p>Instalación y reparación de tecnologías de información y comunicación.</p>
+      </div>
+      <div class="trabajo">
+        <h4>Desarrollador Web</h4>
+        <span>8 meses</span>
+        <p>Diseño y desarrollo de sitios web funcionales y responsivos.</p>
+      </div>
+      <div class="trabajo">
+        <h4>Developer</h4>
+        <span>6 meses</span>
+        <p>Desarrollo de aplicaciones y soluciones digitales.</p>
+      </div>
+      <div class="trabajo">
+        <h4>Atención al Cliente</h4>
+        <span>2 años</span>
+        <p>Gestión de consultas, soporte y resolución de problemas para usuarios.</p>
+      </div>
+    </section>
+
+    <section id="educacion" class="educacion">
+      <h3>Educación</h3>
+      <ul>
+        <li><strong>Ingeniería en Informática</strong> — Universidad Nacional Experimental Rafael María Baralt (2020 - 2024)</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="curriculum.js"></script>
 </body>
-
-
 </html>
-
-
-
-
-
