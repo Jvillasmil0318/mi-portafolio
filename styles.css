@@ -8,10 +8,16 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Open Sans', sans-serif; /* Fuente de lectura clara */
   background-color: var(--color-bg);
   color: var(--color-text);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6; /* Mejora el espacio entre líneas */
+}
+
+header h1, section h3, .trabajo h4 {
+  font-family: 'Montserrat', sans-serif; /* Fuente fuerte para títulos */
+  text-transform: uppercase; /* Opcional: da un toque más formal */
+  letter-spacing: 1px;
 }
 
 .cv-container {
@@ -238,4 +244,5 @@ ul li {
   background-color: #1ebe5d;
   transform: scale(1.05);
 }
+
 
