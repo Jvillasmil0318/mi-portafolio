@@ -74,15 +74,24 @@ section {
 }
 
 .contacto ul li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
 }
 
 .contacto .material-icons {
-  font-size: 1.2em;
-  min-width: 24px;
-  text-align: center;
+  color: var(--color-primary); /* Asegura que usen tu azul corporativo */
+  background-color: rgba(0, 33, 71, 0.1); /* Un fondo circular muy suave */
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 1.4em;
+  margin-right: 12px;
+  transition: all 0.3s ease;
+}
+
+.contacto ul li:hover .material-icons {
+  background-color: var(--color-primary);
+  color: white; /* Efecto interactivo al pasar el mouse */
+  
 }
 
 section h3 {
@@ -244,5 +253,6 @@ ul li {
   background-color: #1ebe5d;
   transform: scale(1.05);
 }
+
 
 
